@@ -48,7 +48,6 @@ bun dev
 # Cantaloupe Image Server: http://localhost:8182/
 ```
 
-`packages/cantaloupe-5.0.7/images/image.tif`が存在すれば
-- http://localhost:8182/iiif/3/image.tif/info.json
-- http://localhost:8182/iiif/3/image.tif/0,0,200,200/max/0/default.jpg
-でCantaloupeの出力結果が見られる
+`packages/cantaloupe-<version_name>/images/image.tif`が存在すれば
+- http://localhost:5173/ でビューワ
+- http://localhost:8182/iiif/3/image.tif/info.json と http://localhost:8182/iiif/3/image.tif/0,0,200,200/max/0/default.jpg でCantaloupeの出力結果が直接見られる
