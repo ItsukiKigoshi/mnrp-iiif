@@ -1,0 +1,6 @@
+{
+  "name": "cantaloupe",
+  "scripts": {
+    "dev": "java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar cantaloupe-5.0.7.jar"
+  }
+}
