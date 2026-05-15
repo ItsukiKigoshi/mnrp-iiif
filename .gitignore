@@ -1,7 +1,7 @@
 # unnecessary cantaloupe files
-packages/cantaloupe-5.0.7/*
-!packages/cantaloupe-5.0.7/cantaloupe.properties
-!packages/cantaloupe-5.0.7/package.json
+packages/cantaloupe*/*
+!packages/cantaloupe*/cantaloupe.properties
+!packages/cantaloupe*/package.json
 
 # dependencies (bun install)
 node_modules
