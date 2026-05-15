@@ -36,6 +36,10 @@ To install dependencies:
 bun install
 ```
 
+- Cantaloupeはhttps://cantaloupe-project.github.io/からリリースをダウンロードし，`packages/cantaloupe-<version_name>`に置いてある想定
+- 画像は`packages/cantaloupe-<version_name>/images`に置く
+  - 本当は，Object Storageなどから取ってくるつもり
+
 To run dev server:
 
 ```bash
